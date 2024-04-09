@@ -131,3 +131,43 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .form-container {
+        padding: 50px 20px;
+    }
+
+    /* .form-container .form {
+        width: 100%;
+    } */
+
+    .form-container h1,
+    .form-container h2 {
+        font-size: 22px;
+    }
+
+    .form-container .form input {
+        font-size: 14px;
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+
+    .popup {
+        padding: 25px 50px;
+    }
+
+    .popup .bmi-score {
+        width: 80px;
+        height: 80px;
+        font-size: 18px;
+    }
+}
